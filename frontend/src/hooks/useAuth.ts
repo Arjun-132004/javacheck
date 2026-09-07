@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { endpoints } from "../lib/api";
-
+// using the hook concept
 export function useAuth() {
 	const [user, setUser] = useState(null);
 	const [loading, setLoading] = useState(true);
